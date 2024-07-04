@@ -14,9 +14,9 @@ const Home = () => {
     
       const handleChange = (e) => {
         // Replace single backslashes with double backslashes
-        const value = e.target.value.replace(/\\/g, '\\\\');
-        setExpression(value);
-        // setExpression(e.target.value);
+        // const value = e.target.value.replace(/\\/g, '\\\\');
+        // setExpression(value);
+        setExpression(e.target.value);
       };
   return (
     <div>
